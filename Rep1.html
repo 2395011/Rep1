@@ -9,6 +9,22 @@
             color: blue; 
         }
     </style>
+
+<script>
+    window.onscroll = () => { //() is shortcut for function 
+        if(window.innerHeight + window.scrollY >= document.body.offsetHeight) {
+
+            document.querySelector("body").style.background = "red"; 
+        }
+        else{
+
+            document.querySelector("body").style.background = "green"; 
+        }
+
+    }
+    
+</script>
+
 </head>
 <body>
     <h1 > Welcome to my WebPyshc! </h1>
